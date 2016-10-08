@@ -1,3 +1,4 @@
+#ข้อ 7
 US_states ={"AK" => "Alaska", 
 "AL" => "Alabama", 
 "AR" => "Arkansas", 
@@ -54,4 +55,5 @@ US_states ={"AK" => "Alaska",
 "WV" => "West Virginia", 
 "WY" => "Wyoming" }
 
+#ข้อ 4
 US_states.each {|key,valuse| puts valuse if valuse.length > 8}
